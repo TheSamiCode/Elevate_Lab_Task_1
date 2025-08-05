@@ -16,11 +16,11 @@
        
     2) Customers
 	- customer_id (PK)
-        - user_id (FK)
+	- user_id (FK)
 	- name
 	- email
 	- phone
-        - address
+	- address
 
     3) Categories
 	- category_id (PK)
@@ -31,22 +31,22 @@
 	- name
 	- category_id (FK)
 	- price
-        - stock
-        - description
+	- stock
+	- description
 
     5) Orders
 	- order_id (PK)
 	- customer_id (FK)
-        - order_date
-        - total_amount
-        - status
+	- order_date
+	- total_amount
+	- status
 
     6) OrderItems
 	- item_id (PK)
 	- order_id (FK)
 	- product_id (FK)
 	- quantity
-        - price
+	- price
 
 
 -> I have attached Screenshot of every entity schema.
