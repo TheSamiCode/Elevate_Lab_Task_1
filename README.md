@@ -9,43 +9,43 @@
 
 
     1) Users
-	     - user_id (PK)
-		   - name
-		   - email
-		   - password
+	- user_id (PK)
+	- name
+	- email
+	- password
        
     2) Customers
-	      - customer_id (PK)
+	- customer_id (PK)
         - user_id (FK)
-		    - name
-		    - email
-		    - phone
+	- name
+	- email
+	- phone
         - address
 
     3) Categories
-	      - category_id (PK)
-	    	- category_name
+	- category_id (PK)
+	- category_name
 
     4) Products
-	      - product_id (PK)
-		    - name
-		    - category_id (FK)
-		    - price
+	- product_id (PK)
+	- name
+	- category_id (FK)
+	- price
         - stock
         - description
 
     5) Orders
-	      - order_id (PK)
-		    - customer_id (FK)
-		    - order_date
-		    - total_amount
+	- order_id (PK)
+	- customer_id (FK)
+        - order_date
+        - total_amount
         - status
 
     6) OrderItems
-	      - item_id (PK)
-		    - order_id (FK)
-		    - product_id (FK)
-		    - quantity
+	- item_id (PK)
+	- order_id (FK)
+	- product_id (FK)
+	- quantity
         - price
 
 
