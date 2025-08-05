@@ -1,12 +1,11 @@
-# I have developed a Database Schema & ER Diagram of E-commerce System
-
-	Tool Used
+#Built the database schema and ER diagram for an E-commerce system, showing how users, products, and orders connect. It’s designed to be clear, efficient, and ready for real-world use.
+   ==>  Tool Used
  	==========
    	Tool :- MySQL Workbench
    	ER-Diagram : SmartDraw Website to draw ER-Diagram
+    
 
 -> Basically this E-Commerce System containes following Entity(Module) with given set of attributes.
-
 
     1) Users
 	- user_id (PK)
@@ -49,6 +48,6 @@
 	- price
 
 
--> I have attached Screenshot of every entity schema.
+==> Entity Schemas Clear screenshots of each table — Users, Customers, Categories, Products, Orders, and OrderItems — are provided. These show the key fields, data types, and constraints, making it easy to understand how each part of the database is structured.
 
--> There is also and We-defined ER Diagram Screenshot also attached.
+==> ER Diagram Overview A clean and well-organized ER diagram is included to show how all the tables are connected. It gives a quick visual of the relationships and helps you see how data flows across the system.
